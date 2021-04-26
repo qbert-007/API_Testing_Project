@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="Existing_sectionKey" value="vwMbp"/>
+  <parameter name="api-token" value="b3ebb47d91f541526182cf7cdb51aae20ebc46a45740130c3f17b0cf9ab3a152"/>
+  <parameter name="Existing_projectKey" value="RGMd"/>
+  <parameter name="NonExisting_sectionKey" value="a"/>
+  <parameter name="NonExisting_ModuleName" value="Search1000"/>
+  <parameter name="docKey" value="111a"/>
+  <parameter name="releaseKey" value="0z34"/>
+  <parameter name="title" value="SingleValued"/>
+  <parameter name="userKey" value="g2bz"/>
+  <parameter name="NonExisting_projectName" value="MiniProject300"/>
+  <parameter name="Existing_projectName" value="MyProject100"/>
+  <parameter name="Existing_ModuleName" value="Login1"/>
+  <parameter name="projectKey" value="RGda"/>
+  <parameter name="Existing_projectKey_HavingNoTestCases" value="VVlP"/>
+  <parameter name="testRunKey" value="nqZ6"/>
+  <parameter name="NonExisting_projectKey" value="aa"/>
+  <parameter name="milestone" value="milestone"/>
+  <parameter name="Existing_projectKey_HavingNoModules" value="VVlP"/>
+  <parameter name="domain" value="apidemo"/>
+  <parameter name="runResultKey" value="NWR4z"/>
+  <parameter name="mileKey" value="5RwZ"/>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testCases.Post_CreateModule">
+        <methods>
+          <include name="NonExistingModuleNameExistingKey" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testCases.Post_CreateModule -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

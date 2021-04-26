@@ -1,0 +1,56 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="QA_Touch_Api_Test_Suite">
+
+	<!-- <listeners> -->
+	<!-- <listener class-name="resources.ExtentReporterNG"/> -->
+	<!-- </listeners> -->
+
+	<parameter name="domain" value="apidemo" />
+	<parameter name="api-token"
+		value="b3ebb47d91f541526182cf7cdb51aae20ebc46a45740130c3f17b0cf9ab3a152" />
+	<parameter name="projectKey" value="RGda" />
+
+	<parameter name="userKey" value="g2bz" />
+	<parameter name="mileKey" value="5RwZ" />
+
+	<parameter name="testRunKey" value="nqZ6" />
+	<parameter name="runResultKey" value="NWR4z" />
+
+	<parameter name="docKey" value="111a" />
+
+	<parameter name="releaseKey" value="0z34" />
+
+
+	<parameter name="Existing_projectKey" value="RGMd" />
+	<parameter name="Existing_sectionKey" value="vwMbp" />
+	<parameter name="NonExisting_sectionKey" value="a" />
+	<parameter name="title" value="SingleValued" />
+	<parameter name="NonExisting_projectKey" value="aa" />
+	<parameter name="NonExisting_ModuleName" value="Search1000" />
+	<parameter name="Existing_ModuleName" value="Login1" />
+	<parameter name="milestone" value="milestone" />
+	<parameter name="Existing_projectName" value="MyProject100" />
+	<parameter name="NonExisting_projectName"
+		value="MiniProject300" />
+	<parameter name="Existing_projectKey_HavingNoModules"
+		value="VVlP" />
+	<parameter name="Existing_projectKey_HavingNoTestCases"
+		value="VVlP" />
+
+
+
+
+	<test parallel="false" name="Project_Functionality_Test">
+
+		<packages>
+			<package name="config"></package>
+		
+			<package name="testRuns"></package>
+			<package name="defects"></package>
+			<package name="requirements"></package>
+			<package name="projects"></package>
+			<package name="testCases"></package>
+			<package name="release"></package>
+		</packages>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
