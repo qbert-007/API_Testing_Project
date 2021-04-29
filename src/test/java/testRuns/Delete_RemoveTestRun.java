@@ -14,7 +14,7 @@ public class Delete_RemoveTestRun {
 	
 	
 	@Parameters("projectKey")
-	@Test
+	@Test//(enabled=false)
 	public void TC_011_DeleteTestRun(String projectKey, ITestContext context) {
 
 			given().headers(SetUp.headers).log().method().log().uri()
